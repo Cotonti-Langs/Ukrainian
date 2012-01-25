@@ -3,9 +3,9 @@
  * Ukrainian Language File for Tags Plugin
  *
  * @package tags
- * @version 0.9.5
+ * @version 
  * @author Cotonti Translators Team
- * @copyright Copyright (c) Cotonti Team 2011
+ * @copyright Copyright (c) Cotonti Team 2008-2012
  * @license BSD
  */
 
@@ -40,8 +40,8 @@ $L['tags_Tag_cloud_none'] = 'Немає тегів';
 
 $L['cfg_forums'] = array('Увімкнути теги для форумів');
 $L['cfg_index'] = array('Розділ тегів для головної сторінки');
-$L['cfg_limit'] = array('Максимальна кількість тегів','0 &mdash; неограничено');
-$L['cfg_lim_forums'] = array('Лимит количества тегов в облаке на форумах','0 &mdash; необмежено');
+$L['cfg_limit'] = array('Максимальна кількість тегів','0 &mdash; необмежено');
+$L['cfg_lim_forums'] = array('Ліміт кількості тегів у хмарі на форумах','0 &mdash; необмежено');
 $L['cfg_lim_index'] = array('Ліміт кількості тегів  на головній сторінці', '0 &mdash; необмежено');
 $L['cfg_lim_pages'] = array('Ліміт кількості тегів на сторінках','0 &mdash; необмежено');
 $L['cfg_more'] = array('Відображати в тегах посилання на &laquo;Всі теги&raquo;');
