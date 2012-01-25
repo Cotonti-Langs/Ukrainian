@@ -3,19 +3,19 @@
  * Ukrainian Language File for Userimages
  *
  * @package Userimages
- * @version 0.9.5
+ * @version 
  * @author Cotonti Translators Team
- * @copyright Copyright (c) Cotonti Team 2011
+ * @copyright Copyright (c) Cotonti Team 2008-2012
  * @license BSD
  */
 
 defined('COT_CODE') or die('Wrong URL.');
 
-$L['info_desc'] = 'Реалізує підтримку аватарів, фотографій і зображень-підписів для користувачів';
+$L['info_desc'] = 'Реалізує підтримку аватарів, фотографій та зображень-підписів для користувачів';
 
 $L['userimages_width'] = 'Ширина';
 $L['userimages_height'] = 'Висота';
-$L['userimages_cropratio'] = 'Відношення обрізки';
+$L['userimages_cropratio'] = 'Співвідношення обрізки';
 $L['userimages_cropnone'] = 'Ні (оригінальна ширина:висота)';
 $L['userimages_cropfit'] = 'Підігнати (цільова ширина:висота)';
 $L['userimages_addnew'] = 'Додати';
