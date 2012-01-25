@@ -3,7 +3,7 @@
  * Файл локалізації теми Nemesis
  *
  * @package Cotonti
- * @version 0.9.5
+ * @version 
  * @author Cotonti Translators Team
  * @copyright Copyright (c) Cotonti Team 2008-2012
  * @license BSD
