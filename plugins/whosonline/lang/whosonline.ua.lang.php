@@ -3,7 +3,7 @@
  * Ukrainian Language File for WhosOnline Plugin
  *
  * @package whosonline
- * @version 0.9.5
+ * @version 
  * @author Cotonti Translators Team
  * @copyright Copyright (c) Cotonti Team 2008-2012
  * @license BSD
