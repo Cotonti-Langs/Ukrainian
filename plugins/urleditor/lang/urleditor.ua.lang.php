@@ -3,9 +3,9 @@
  * Ukrainian Language File for URL management tool
  *
  * @package urleditor
- * @version 0.9.5
+ * @version 
  * @author Cotonti Translators Team
- * @copyright Copyright (c) Cotonti Team 2008-2011
+ * @copyright Copyright (c) Cotonti Team 2008-2012
  * @license BSD
  */
 
