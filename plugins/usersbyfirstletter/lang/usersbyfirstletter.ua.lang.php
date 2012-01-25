@@ -1,7 +1,16 @@
 <?php
+/**
+ * Ukrainian Language File for usersbyfirstletter
+ *
+ * @package usersbyfirstletter
+ * @version 
+ * @author Cotonti Team
+ * @copyright Copyright (c) Cotonti Team 2008-2012
+ * @license BSD
+ */
 
 defined('COT_CODE') or die('Wrong URL');
 
-$L['by_first_letter'] = 'Çà ïåðøîþ ë³òåðîþ';
+$L['by_first_letter'] = 'Ð—Ð° Ð¿ÐµÑ€ÑˆÐ¾ÑŽ Ð»Ñ–Ñ‚ÐµÑ€Ð¾ÑŽ';
 
 ?>
