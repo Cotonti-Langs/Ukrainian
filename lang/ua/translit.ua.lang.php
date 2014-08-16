@@ -4,6 +4,8 @@
  * В порядку зменшення пріоритету при обробці
  */
 
+global $cot_translit, $cot_translitb;
+
 $cot_translit = array(
 'ці' => 'ci',
 'Ці' => 'Ci',
