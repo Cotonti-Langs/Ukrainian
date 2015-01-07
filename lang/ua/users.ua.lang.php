@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 /**
  * Ukrainian Language File for the Users Module (users.ua.lang.php)

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 /**
  * Ukrainian Language File for the Admin Module (admin.ua.lang.php)
