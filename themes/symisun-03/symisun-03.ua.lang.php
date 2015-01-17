@@ -3,10 +3,8 @@
  * Файл локалізації теми SymiSun-03
  *
  * @package Cotonti
- * @version
- * @author Cotonti Translators Team
- * @copyright Copyright (c) Cotonti Team 2008-2012
- * @license BSD
+ * @copyright (c) Cotonti Translators Team
+ * @license https://github.com/Cotonti/Cotonti/blob/master/License.txt
  */
 
 defined('COT_CODE') or die('Wrong URL.');
@@ -19,124 +17,122 @@ defined('COT_CODE') or die('Wrong URL.');
  * forums.posts.tpl
  */
 
-$themelang['forumspost']['to'] = 'чтобы';
-$themelang['forumspost']['post'] = 'Ответить';
-$themelang['forumspost']['jump'] = 'Переход';
+$themelang['forumspost']['to'] = 'щоб';
+$themelang['forumspost']['post'] = 'Відповісти';
+$themelang['forumspost']['jump'] = 'Перехід';
 
 /**
  * forums.topics.tpl
  */
-$themelang['forumstopics']['Legend'] = 'Информация';
-$themelang['forumstopics']['Start'] = 'Создать тему';
+$themelang['forumstopics']['Legend'] = 'Інформація';
+$themelang['forumstopics']['Start'] = 'Створити тему';
 
 /**
  * header.tpl
  */
 
-$themelang['header']['user'] = 'Панель пользователя';
+$themelang['header']['user'] = 'Панель користувача';
 
 /**
  * footer.tpl
  */
 
-$themelang['footer']['top'] = 'Наверх';
+$themelang['footer']['top'] = 'Догори';
 
 /**
  * index.tpl
  */
-$themelang['index']['by'] = 'От';
-$themelang['index']['Newinforums'] = 'Свежие <strong>сообщения</strong>';
-$themelang['index']['Recentadditions'] = '<strong>Страницы</strong>';
-$themelang['index']['Recentcomments'] = '<strong>Комментарии</strong>';
+$themelang['index']['by'] = 'Від';
+$themelang['index']['Newinforums'] = 'Свіжі <strong>повідомлення</strong>';
+$themelang['index']['Recentadditions'] = '<strong>Сторінки</strong>';
+$themelang['index']['Recentcomments'] = '<strong>Коментарі</strong>';
 
 /**
  * page.list.tpl
  */
 
-$themelang['list']['sort'] = 'Сортировка';
-$themelang['list']['asc'] = 'по возрастанию';
-$themelang['list']['desc'] = 'по убыванию';
-$themelang['list']['bread'] = 'Вы здесь';
-$themelang['list']['none'] = 'Здесь еще нет записей.';
-$themelang['list']['rss'] = 'Подписаться на RSS';
-$themelang['list']['all'] = 'Все записи';
+$themelang['list']['sort'] = 'Сортування';
+$themelang['list']['asc'] = 'за зростанням';
+$themelang['list']['desc'] = 'за спаданням';
+$themelang['list']['bread'] = 'Ви тут';
+$themelang['list']['none'] = 'Тут ще немає записів.';
+$themelang['list']['rss'] = 'Підписатися на RSS';
+$themelang['list']['all'] = 'Усі записи';
 
 /**
  * page.add.tpl
  */
 
-$themelang['pageadd']['save'] = 'Сохранить в...';
-$themelang['pageadd']['basic'] = 'Основное';
-$themelang['pageadd']['adv'] = 'Дополнительное';
-$themelang['pageadd']['dates'] = 'Даты';
+$themelang['pageadd']['save'] = 'Зберегти в ...';
+$themelang['pageadd']['basic'] = 'Основне';
+$themelang['pageadd']['adv'] = 'Додаткове';
+$themelang['pageadd']['dates'] = 'Дати';
 $themelang['pageadd']['down'] = 'Файл';
 
 /**
  * page.edit.tpl
  */
 
-$themelang['pageedit']['del'] = 'Удалить';
+$themelang['pageedit']['del'] = 'Видалити';
 
 /**
  * pm.send.tpl
  */
 
-$themelang['pmsend']['Sendmessagetohint'] = 'up to 10 recipients, separated by commas';
+$themelang['pmsend']['Sendmessagetohint'] = 'до 10 одержувачів, розділяючи їх комою';
 
 /**
  * pm.tpl
  */
 
-$themelang['pm']['pm'] = 'Л.С.';
+$themelang['pm']['pm'] = 'П.П.';
 $themelang['pm']['to'] = 'Кому';
-$themelang['pm']['Selectall'] = 'Выбрать все';
-$themelang['pm']['Unselectall'] = 'Снять выделение';
+$themelang['pm']['Selectall'] = 'Вибрати всі';
+$themelang['pm']['Unselectall'] = 'Зняти виділення';
 
 /**
  * users.tpl
  */
 
-$themelang['users']['login'] = 'Войти под вашим аккаунтом';
+$themelang['users']['login'] = 'Увійти під вашим аккаунтом';
 
 /**
  * users.auth.tpl
  */
-$themelang['usersauth']['already'] = 'Вы уже вошли!';
-$themelang['usersauth']['goto'] = 'Перейти к вашему аккаунту';
+$themelang['usersauth']['already'] = 'Ви вже увійшли!';
+$themelang['usersauth']['goto'] = 'Перейти до вашого аккаунту';
 $themelang['usersauth']['Maintenancereason'] = 'Причина';
 
 /**
  * users.edit.tpl
  */
 
-$themelang['usersedit']['info'] = 'Информация';
+$themelang['usersedit']['info'] = 'Інформація';
 
 /**
  * users.details.tpl
  */
 
-$themelang['usersdetails']['posts'] = 'Сообщений';
-$themelang['usersdetails']['years'] = 'лет';
+$themelang['usersdetails']['posts'] = 'Повідомлень';
+$themelang['usersdetails']['years'] = 'років';
 
 /**
  * users.profile.tpl
  */
 
-$themelang['usersprofile']['characters'] = 'символов';
-$themelang['usersprofile']['privacy'] = 'Конфиденциальность';
-$themelang['usersprofile']['settings'] = 'Настройки сайта';
-$themelang['usersprofile']['personal'] = 'Персональная информация';
-$themelang['usersprofile']['contact'] = 'Контактная информация';
-$themelang['usersprofile']['current'] = 'Текущий';
+$themelang['usersprofile']['characters'] = 'символів';
+$themelang['usersprofile']['privacy'] = 'Конфіденційність';
+$themelang['usersprofile']['settings'] = 'Налаштування сайту';
+$themelang['usersprofile']['personal'] = 'Персональна інформація';
+$themelang['usersprofile']['contact'] = 'Контактна інформація';
+$themelang['usersprofile']['current'] = 'Поточний';
 
 /**
  * users.register.tpl
  */
 
-$themelang['usersregister']['Generalhint'] = 'Все поля обязательны к заполнению.';
-$themelang['usersregister']['Usernamehint'] = 'Имя пользователя не должно быть короче 2 символов.';
+$themelang['usersregister']['Generalhint'] = 'Всі поля обов\'язкові до заповнення.';
+$themelang['usersregister']['Usernamehint'] = 'Ім\'я користувача не повинно бути коротше 2 символів.';
 
 
-$themelang['search']['Generalhint'] = 'Вы можете сделать поиск более точным, выбрав необходимые категории и опции поиска. Обратите внимание, что поиск &quot;Везде&quot; не содержит всех опций. Для точного поиска используйте вкладки &quot;Форумы&quot; и &quot;Страницы&quot;.';
-
-?>
+$themelang['search']['Generalhint'] = 'Ви можете зробити пошук більш точним, вибравши необхідні категорії та опції пошуку. Зверніть увагу, що пошук &quot;Скрізь&quot; не містить всіх опцій. Для точного пошуку використовуйте вкладки &quot;Форуми&quot; і &quot;Сторінки&quot;.';
