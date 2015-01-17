@@ -3,17 +3,16 @@
  * Файл локалізації теми Nemesis
  *
  * @package Cotonti
- * @version 
- * @author Cotonti Translators Team
- * @copyright Copyright (c) Cotonti Team 2008-2012
- * @license BSD
+ * @copyright (c) Cotonti Translators Team
+ * @license https://github.com/Cotonti/Cotonti/blob/master/License.txt
  */
 
 defined('COT_CODE') or die('Wrong URL.');
 
-/** Даний файл призначений для додаткових локалізацій теми */
+/**
+ * Даний файл призначений для додаткових локалізацій теми
+ */
 
-$L['Contact'] = 'Контакти';
+$L['Contact'] = 'Контакт';
 $L['Follow_Twitter'] = 'Слідкуйте за нами у Twitter!';
 $L['Sitemap'] = 'Мапа сайту';
-?>

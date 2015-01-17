@@ -17,122 +17,122 @@ defined('COT_CODE') or die('Wrong URL.');
  * forums.posts.tpl
  */
 
-$themelang['forumspost']['to'] = 'щоб';
-$themelang['forumspost']['post'] = 'Відповісти';
-$themelang['forumspost']['jump'] = 'Перехід';
+$themelang['forumspost_to'] = 'щоб';
+$themelang['forumspost_post'] = 'Відповісти';
+$themelang['forumspost_jump'] = 'Перехід';
 
 /**
  * forums.topics.tpl
  */
-$themelang['forumstopics']['Legend'] = 'Інформація';
-$themelang['forumstopics']['Start'] = 'Створити тему';
+$themelang['forumstopics_Legend'] = 'Інформація';
+$themelang['forumstopics_Start'] = 'Створити тему';
 
 /**
  * header.tpl
  */
 
-$themelang['header']['user'] = 'Панель користувача';
+$themelang['header_user'] = 'Панель користувача';
 
 /**
  * footer.tpl
  */
 
-$themelang['footer']['top'] = 'Догори';
+$themelang['footer_top'] = 'Догори';
 
 /**
  * index.tpl
  */
-$themelang['index']['by'] = 'Від';
-$themelang['index']['Newinforums'] = 'Свіжі <strong>повідомлення</strong>';
-$themelang['index']['Recentadditions'] = '<strong>Сторінки</strong>';
-$themelang['index']['Recentcomments'] = '<strong>Коментарі</strong>';
+$themelang['index_by'] = 'Від';
+$themelang['index_Newinforums'] = 'Свіжі <strong>повідомлення</strong>';
+$themelang['index_Recentadditions'] = '<strong>Сторінки</strong>';
+$themelang['index_Recentcomments'] = '<strong>Коментарі</strong>';
 
 /**
  * page.list.tpl
  */
 
-$themelang['list']['sort'] = 'Сортування';
-$themelang['list']['asc'] = 'за зростанням';
-$themelang['list']['desc'] = 'за спаданням';
-$themelang['list']['bread'] = 'Ви тут';
-$themelang['list']['none'] = 'Тут ще немає записів.';
-$themelang['list']['rss'] = 'Підписатися на RSS';
-$themelang['list']['all'] = 'Усі записи';
+$themelang['list_sort'] = 'Сортування';
+$themelang['list_asc'] = 'за зростанням';
+$themelang['list_desc'] = 'за спаданням';
+$themelang['list_bread'] = 'Ви тут';
+$themelang['list_none'] = 'Тут ще немає записів.';
+$themelang['list_rss'] = 'Підписатися на RSS';
+$themelang['list_all'] = 'Усі записи';
 
 /**
  * page.add.tpl
  */
 
-$themelang['pageadd']['save'] = 'Зберегти в ...';
-$themelang['pageadd']['basic'] = 'Основне';
-$themelang['pageadd']['adv'] = 'Додаткове';
-$themelang['pageadd']['dates'] = 'Дати';
-$themelang['pageadd']['down'] = 'Файл';
+$themelang['pageadd_save'] = 'Зберегти в ...';
+$themelang['pageadd_basic'] = 'Основне';
+$themelang['pageadd_adv'] = 'Додаткове';
+$themelang['pageadd_dates'] = 'Дати';
+$themelang['pageadd_down'] = 'Файл';
 
 /**
  * page.edit.tpl
  */
 
-$themelang['pageedit']['del'] = 'Видалити';
+$themelang['pageedit_del'] = 'Видалити';
 
 /**
  * pm.send.tpl
  */
 
-$themelang['pmsend']['Sendmessagetohint'] = 'до 10 одержувачів, розділяючи їх комою';
+$themelang['pmsend_Sendmessagetohint'] = 'до 10 одержувачів, розділяючи їх комою';
 
 /**
  * pm.tpl
  */
 
-$themelang['pm']['pm'] = 'П.П.';
-$themelang['pm']['to'] = 'Кому';
-$themelang['pm']['Selectall'] = 'Вибрати всі';
-$themelang['pm']['Unselectall'] = 'Зняти виділення';
+$themelang['pm_pm'] = 'П.П.';
+$themelang['pm_to'] = 'Кому';
+$themelang['pm_Selectall'] = 'Вибрати всі';
+$themelang['pm_Unselectall'] = 'Зняти виділення';
 
 /**
  * users.tpl
  */
 
-$themelang['users']['login'] = 'Увійти під вашим аккаунтом';
+$themelang['users_login'] = 'Увійти під вашим аккаунтом';
 
 /**
  * users.auth.tpl
  */
-$themelang['usersauth']['already'] = 'Ви вже увійшли!';
-$themelang['usersauth']['goto'] = 'Перейти до вашого аккаунту';
-$themelang['usersauth']['Maintenancereason'] = 'Причина';
+$themelang['usersauth_already'] = 'Ви вже увійшли!';
+$themelang['usersauth_goto'] = 'Перейти до вашого аккаунту';
+$themelang['usersauth_Maintenancereason'] = 'Причина';
 
 /**
  * users.edit.tpl
  */
 
-$themelang['usersedit']['info'] = 'Інформація';
+$themelang['usersedit_info'] = 'Інформація';
 
 /**
  * users.details.tpl
  */
 
-$themelang['usersdetails']['posts'] = 'Повідомлень';
-$themelang['usersdetails']['years'] = 'років';
+$themelang['usersdetails_posts'] = 'Повідомлень';
+$themelang['usersdetails_years'] = 'років';
 
 /**
  * users.profile.tpl
  */
 
-$themelang['usersprofile']['characters'] = 'символів';
-$themelang['usersprofile']['privacy'] = 'Конфіденційність';
-$themelang['usersprofile']['settings'] = 'Налаштування сайту';
-$themelang['usersprofile']['personal'] = 'Персональна інформація';
-$themelang['usersprofile']['contact'] = 'Контактна інформація';
-$themelang['usersprofile']['current'] = 'Поточний';
+$themelang['usersprofile_characters'] = 'символів';
+$themelang['usersprofile_privacy'] = 'Конфіденційність';
+$themelang['usersprofile_settings'] = 'Налаштування сайту';
+$themelang['usersprofile_personal'] = 'Персональна інформація';
+$themelang['usersprofile_contact'] = 'Контактна інформація';
+$themelang['usersprofile_current'] = 'Поточний';
 
 /**
  * users.register.tpl
  */
 
-$themelang['usersregister']['Generalhint'] = 'Всі поля обов\'язкові до заповнення.';
-$themelang['usersregister']['Usernamehint'] = 'Ім\'я користувача не повинно бути коротше 2 символів.';
+$themelang['usersregister_Generalhint'] = 'Всі поля обов’язкові до заповнення.';
+$themelang['usersregister_Usernamehint'] = 'Ім’я користувача не повинно бути коротше 2 символів.';
 
 
-$themelang['search']['Generalhint'] = 'Ви можете зробити пошук більш точним, вибравши необхідні категорії та опції пошуку. Зверніть увагу, що пошук &quot;Скрізь&quot; не містить всіх опцій. Для точного пошуку використовуйте вкладки &quot;Форуми&quot; і &quot;Сторінки&quot;.';
+$themelang['search_Generalhint'] = 'Ви можете зробити пошук більш точним, вибравши необхідні категорії та опції пошуку. Зверніть увагу, що пошук &quot;Скрізь&quot; не містить всіх опцій. Для точного пошуку використовуйте вкладки &quot;Форуми&quot; і &quot;Сторінки&quot;.';

@@ -3,10 +3,8 @@
  * Ukrainian Language File (main.ua.lang.php)
  *
  * @package Cotonti
- * @version 0.9.5
- * @author Cotonti Translators Team
- * @copyright Copyright (c) Cotonti Team 2008-2011
- * @license BSD
+ * @copyright (c) Cotonti Translators Team
+ * @license https://github.com/Cotonti/Cotonti/blob/master/License.txt
  */
 
 defined('COT_CODE') or die('Wrong URL.');
@@ -100,7 +98,7 @@ $L['Filters'] = 'Фільтри';
 $L['Fold'] = 'Згорнути';
 $L['Folder'] = 'Каталог';
 $L['Folders'] = 'Каталоги';
-$L['Forums'] =' Форуми ';
+$L['Forums'] = 'Форуми';
 $L['Found'] = 'Знайдено';
 $L['Galleries'] = 'Галереї';
 $L['Gallery'] = 'Галерея';
@@ -135,6 +133,7 @@ $L['Ipsearch'] = 'Пошук по IP';
 $L['IRC'] = 'IRC';
 $L['Item'] = 'Елемент';
 $L['Items'] = 'Елементи';
+$L['JustNow'] = 'Щойно';
 $L['kb'] = 'Кб';
 $L['Key'] = 'Код';
 $L['Keywords'] = 'Ключові слова';
@@ -143,6 +142,7 @@ $L['Languages​​'] = 'Мови';
 $L['Lastlogged'] = 'Остання авторизація';
 $L['Lastpost'] = 'Останнє повідомлення';
 $L['Left'] = 'По лівому краю';
+$L['LessThan'] = 'Менше ніж';
 $L['Level'] = 'Рівень';
 $L['Levels'] = 'Рівні';
 $L['Link'] = 'Посилання';
@@ -164,14 +164,14 @@ $L['Menu'] = 'Меню';
 $L['Menus'] = 'Слоти для меню';
 $L['Message'] = 'Повідомлення';
 $L['Messages'] = 'Повідомлення';
-$L['Minlevel'] = 'Мін. рівень ';
+$L['Minlevel'] = 'Мін. рівень';
 $L['Minutes'] = 'Хвилини';
 $L['Moderators'] = 'Модератори';
 $L['Module'] = 'Модуль';
 $L['Modules'] = 'Модулі';
 $L['Month'] = 'місяць';
 $L['Months'] = 'місяці';
-$L['More'] = 'Детально ...';
+$L['More'] = 'Детально...';
 $L['Move'] = 'Перемістити';
 $L['Moved'] = 'Переміщено';
 $L['MSN'] = 'MSN Messenger';
@@ -179,7 +179,7 @@ $L['Myjournal'] = 'Мої щоденники';
 $L['Mypfs'] = 'Мої файли';
 $L['na'] = 'Недоступно';
 $L['nf'] = 'Не знайдено';
-$L['Name'] = 'Ім\'я';
+$L['Name'] = 'Ім’я';
 $L['Names'] = 'Імена';
 $L['Navigation'] = 'Навігація';
 $L['New'] = 'Новий';
@@ -195,6 +195,7 @@ $L['Notes'] = 'Примітки';
 $L['No_items'] = 'Немає елементів';
 $L['Occupation'] = 'Професія';
 $L['Of'] = 'із'; // New in N-x.x.x
+$L['Offline'] = 'Оффлайн';
 $L['Online'] = 'Онлайн';
 $L['Onpage'] = 'На сторінці';
 $L['Ontop'] = 'Вгору';
@@ -238,7 +239,7 @@ $L['Rated'] = 'Рейтинг';
 $L['Rating'] = 'Рейтинг';
 $L['Ratings'] = 'Рейтинги';
 $L['Read'] = 'Читання';
-$L['ReadMore'] = 'Докладніше ...';
+$L['ReadMore'] = 'Докладніше';
 $L['Reason'] = 'Причина';
 $L['Recipient'] = 'Одержувач';
 $L['Recipients'] = 'Одержувачі';
@@ -256,6 +257,9 @@ $L['Resynced'] = 'Синхронізовано';
 $L['Right'] = 'По правому краю';
 $L['Rights'] = 'Права';
 $L['RSS_Feeds'] = 'RSS канали';
+$L['Save'] = 'Зберегти';
+$L['Saveasdraft'] = 'Зберегти чернетку';
+$L['Saved'] = 'Збережено';
 $L['Scheme'] = 'Колірна схема';
 $L['Schemes'] = 'Колірні схеми';
 $L['Search'] = 'Пошук';
@@ -265,7 +269,7 @@ $L['Sections'] = 'Розділи';
 $L['Security'] = 'Безпека';
 $L['Sender'] = 'Відправник';
 $L['Senders'] = 'Відправники';
-$L['Session_expired'] = 'Час вашої сесії минув. Спробуйте ще раз. ';
+$L['Session_expired'] = 'Час вашої сесії минув. Спробуйте ще раз.';
 $L['Set'] = 'Встановити';
 $L['Settings'] = 'Налаштування';
 $L['Setup'] = 'Налаштування';
@@ -286,6 +290,7 @@ $L['Subforum'] = 'Підфорум';
 $L['Subforums'] = 'Підфоруми';
 $L['Subject'] = 'Тема';
 $L['Submit'] = 'Надіслати';
+$L['Submitforapproval'] = 'Відправити на затвердження';
 $L['Submitnew'] = 'Створити нову сторінку';
 $L['Submittedby'] = 'Опубліковано';
 $L['Summary'] = 'Зміст';
@@ -304,6 +309,7 @@ $L['Tool'] = 'Інструмент';
 $L['Tools'] = 'Інструменти';
 $L['Total'] = 'Всього';
 $L['TPL'] = 'TPL';
+$L['Topic'] = 'Тема';
 $L['Type'] = 'Тип';
 $L['Unfold'] = 'Розгорнути';
 $L['Unknown'] = '?';
@@ -317,7 +323,7 @@ $L['Uploaded'] = 'Завантажено';
 $L['URL'] = 'URL';
 $L['User'] = 'Користувач';
 $L['Userid'] = 'ID користувача';
-$L['Username'] = 'Ім\'я';
+$L['Username'] = 'Ім’я';
 $L['Users'] = 'Користувачі';
 $L['Validate'] = 'Затвердити';
 $L['Value'] = 'Значення';
@@ -340,26 +346,32 @@ $L['YIM'] = 'Yahoo Messenger';
 /**
  * cot_declension arrays
  */
+$Ls['Folders'] = "каталог,каталоги,каталогів";
+$Ls['Files'] = "файл,файли,файлів";
 
-$Ls['Guests'] = array ('гість', 'гостя', 'гостей');
-$Ls['Members'] = array ('користувач', 'користувача', 'користувачів');
-$Ls['Pages'] = array ('сторінка', 'сторінки', 'сторінок');
-$Ls['Times'] = array ('раз', 'рази', 'раз');
+$Ls['Guests'] = 'гість,гостя,гостей';
+$Ls['Members'] = 'користувач,користувача,користувачів';
+$Ls['Pages'] = 'сторінка,сторінки,сторінок';
+$Ls['Times'] = 'раз,рази,раз';
 
-$Ls['Milliseconds'] = array ('мс', 'мс', 'мс');
-$Ls['Seconds'] = array ('секунда', 'секунди', 'секунд');
-$Ls['Minutes'] = array ('хвилина', 'хвилини', 'хвилин');
-$Ls['Hours'] = array ('година', 'години', 'годин');
-$Ls['Days'] = array ('день', 'дня', 'днів');
-$Ls['Weeks'] = array ('тиждень', 'тижні', 'тижнів');
-$Ls['Months'] = array ('місяць', 'місяця', 'місяців');
-$Ls['Years'] = array ('рік', 'року', 'років');
+$Ls['Milliseconds'] = 'мс,мс,мс';
+$Ls['Seconds'] = 'секунда,секунди,секунд';
+$Ls['Minutes'] = 'хвилина,хвилини,хвилин';
+$Ls['Hours'] = 'година,години,годин';
+$Ls['Days'] = 'день,дня,днів';
+$Ls['Weeks'] = 'тиждень,тижні,тижнів';
+$Ls['Months'] = 'місяць,місяця,місяців';
+$Ls['Years'] = 'рік,року,років';
 
-$Ls['Bytes'] = array('B', 'B');
-$Ls['Kibibytes'] = array('KiB', 'KiB');
-$Ls['Mebibytes'] = array('MiB', 'MiB');
-$Ls['Gibibytes'] = array('GiB', 'GiB');
-$Ls['Tebibytes'] = array('TiB', 'TiB');
+$Ls['Bytes'] = "B,B";
+$Ls['Kilobytes'] = "kB,kB";
+$Ls['Megabytes'] = "MB,MB";
+$Ls['Gigabytes'] = "GB,GB";
+$Ls['Terabytes'] = "TB,TB";
+$Ls['Kibibytes'] = "KiB,KiB";
+$Ls['Mebibytes'] = "MiB,MiB";
+$Ls['Gibibytes'] = "GiB,GiB";
+$Ls['Tebibytes'] = "TiB,TiB";
 
 /**
  * Date / Time formats
@@ -394,7 +406,7 @@ $L['Monday'] = 'Понеділок';
 $L['Tuesday'] = 'Вівторок';
 $L['Wednesday'] = 'Середа';
 $L['Thursday'] = 'четвер';
-$L['Friday'] = 'П\'ятниця';
+$L['Friday'] = 'П’ятниця';
 $L['Saturday'] = 'Субота';
 $L['Sunday'] = 'Неділя';
 $L['Monday_s'] = 'Пн';
@@ -455,6 +467,7 @@ $L['Gender_U'] = 'Не вказаний';
 
 $L['com_themefail'] = 'Помилка завантаження обраної теми: обновіть або змініть особисті налаштування';
 $L['com_schemefail'] = 'Помилка завантаження колірної схеми обраної теми: обновіть або змініть особисті налаштування';
+$L['com_defthemefail'] = 'Помилка, не знайдено стандартна тема оформлення, перевірте файли в каталозі з темами';
 
 /**
  * Header
@@ -462,7 +475,7 @@ $L['com_schemefail'] = 'Помилка завантаження колірної
 
 $L['hea_noprivatemessages'] = 'Приватних повідомлень немає';
 $L['hea_viewsite'] = 'Перегляд сайту';
-$L['hea_valqueues'] = 'У черзі на затвердження:'; // Discuss
+$L['hea_valqueues'] = 'У черзі на затвердження: '; // Discuss
 $L['hea_welcome'] = 'Ласкаво просимо';
 $L['hea_youareloggedas'] = 'Користувач';
 $L['hea_youarenotlogged'] = 'Ви не авторизовані';
@@ -494,6 +507,9 @@ $L['pagenav_prev'] = '&lt;';
 $L['pagenav_next'] = '&gt;';
 $L['pagenav_last'] = '&gt;&gt;';
 
-$L['ajaxSenderror'] = 'На сервері виникла внутрішня помилка або помилка конфігурації, в результаті якої ваш запит не був виконаний. Зв\'яжіться з адміністратором сайту і проінформуйте його про те, коли сталася помилка і які з ваших дій могли її викликати.';
+$L['ajaxSenderror'] = 'На сервері виникла внутрішня помилка або помилка конфігурації, в результаті якої ваш запит не був виконаний. Зв’яжіться з адміністратором сайту і проінформуйте його про те, коли сталася помилка і які з ваших дій могли її викликати.';
 
-?>
+$L['captcha_verification_failed'] = 'Неверный код защиты от роботов';
+
+$L['shield_title'] = 'Защита от hammering-атак';
+$L['shield_protect'] = 'Анти-хаммеринг активирован, попробуйте снова через {$sec} секунд...<br />После этого промежутка времени вы сможете обновить данную страницу и продолжить.<br />Последнее действие: {$action}';

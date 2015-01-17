@@ -2,14 +2,18 @@
 /**
  * Ukrainian Language File for Tags Plugin
  *
- * @package tags
- * @version 
- * @author Cotonti Translators Team
- * @copyright Copyright (c) Cotonti Team 2008-2012
- * @license BSD
+ * @package Tags
+ * @copyright (c) Cotonti Translators Team
+ * @license https://github.com/Cotonti/Cotonti/blob/master/License.txt
  */
 
 defined('COT_CODE') or die('Wrong URL.');
+
+/**
+ * Plugin Info
+ */
+
+$L['info_desc'] = 'Реалізує теги - ключові слова для вмісту, хмари тегів, пошук по тегам і API';
 
 /**
  * Plugin Title & Subtitle
@@ -33,24 +37,33 @@ $L['tags_Search_results'] = 'Результати пошуку';
 $L['tags_Search_tags'] = 'Пошук тегів';
 $L['tags_Tag_cloud'] = 'Хмара тегів';
 $L['tags_Tag_cloud_none'] = 'Немає тегів';
+$L['tags_length'] = 'Довжина';
+$L['adm_tag_item_area'] = 'Елементи тегів';
+$L['adm_tag_already_del'] = 'Тег видалено';
+$L['adm_tag_already_edit'] = 'Тег відредаговано';
 
 /**
  * Plugin Config
  */
 
-$L['cfg_forums'] = array('Увімкнути теги для форумів');
-$L['cfg_index'] = array('Розділ тегів для головної сторінки');
-$L['cfg_limit'] = array('Максимальна кількість тегів','0 &mdash; необмежено');
-$L['cfg_lim_forums'] = array('Ліміт кількості тегів у хмарі на форумах','0 &mdash; необмежено');
-$L['cfg_lim_index'] = array('Ліміт кількості тегів  на головній сторінці', '0 &mdash; необмежено');
-$L['cfg_lim_pages'] = array('Ліміт кількості тегів на сторінках','0 &mdash; необмежено');
-$L['cfg_more'] = array('Відображати в тегах посилання на &laquo;Всі теги&raquo;');
-$L['cfg_order'] = array('Сортування тегів','за алфавітом, за спаданням частотності, випадковим чином');
-$L['cfg_pages'] = array('Увімкнути теги для сторінок');
-$L['cfg_perpage'] = array('Тегів на сторінці в хмарі всіх тегів, 0 - всі теги відразу');
-$L['cfg_title'] = array('Перші букви тегів великими');
-$L['cfg_translit'] = array('Транслітерувати теги в URL-адресах');
-
-$L['info_desc'] = 'Реалізує теги - ключові слова для вмісту, хмари тегів, пошук по тегам і API';
-
-?>
+$L['cfg_forums'] = 'Увімкнути теги для форумів';
+$L['cfg_index'] = 'Розділ тегів для головної сторінки';
+$L['cfg_limit'] = 'Максимальна кількість тегів';
+$L['cfg_limit_hint'] = '0 &mdash; необмежено';
+$L['cfg_lim_forums'] = 'Ліміт кількості тегів у хмарі на форумах';
+$L['cfg_lim_forums_hint'] = '0 &mdash; необмежено';
+$L['cfg_lim_index'] = 'Ліміт кількості тегів  на головній сторінці';
+$L['cfg_lim_index_hint'] = '0 &mdash; необмежено';
+$L['cfg_lim_pages'] = 'Ліміт кількості тегів на сторінках';
+$L['cfg_lim_pages_hint'] = '0 &mdash; необмежено';
+$L['cfg_more'] = 'Відображати в тегах посилання на &laquo;Всі теги&raquo;';
+$L['cfg_noindex'] = 'Виключити з індексу пошукових систем';
+$L['cfg_order'] = 'Сортування тегів';
+$L['cfg_order_hint'] = 'за алфавітом, за спаданням частотності, випадковим чином';
+$L['cfg_pages'] = 'Увімкнути теги для сторінок';
+$L['cfg_perpage'] = 'Тегів на сторінці в хмарі всіх тегів, 0 - всі теги відразу';
+$L['cfg_sort'] = 'Сортування за замовчуванням в результатах пошуку за тегами';
+$L['cfg_sort_params'] = 'ID: За ID, Title: За заголовком, Date: За датою, Category: За категорією';
+$L['cfg_title'] = 'Перші букви тегів великими';
+$L['cfg_translit'] = 'Транслітерувати теги в URL-адресах';
+$L['cfg_css'] = 'Використовувати CSS стилі плагіну';
