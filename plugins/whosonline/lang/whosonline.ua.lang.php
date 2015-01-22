@@ -2,16 +2,18 @@
 /**
  * Ukrainian Language File for WhosOnline Plugin
  *
- * @package whosonline
- * @version 
- * @author Cotonti Translators Team
- * @copyright Copyright (c) Cotonti Team 2008-2012
- * @license BSD
+ * @package WhosOnline
+ * @copyright (c) Cotonti Translators Team
+ * @license https://github.com/Cotonti/Cotonti/blob/master/License.txt
  */
 
 defined('COT_CODE') or die('Wrong URL.');
 
-$L['info_desc'] = 'Відображає кількість користувачів онлайн на головній та окремій сторінці';
+$L['cfg_disable_guests'] = 'Відключити облік не зареєстрованих користувачів';
+$L['cfg_disable_guests_hint'] = '';
+$L['cfg_maxusersperpage'] = 'Кількість записів на сторінку в таблиці онлайн користувачів';
+$L['cfg_maxusersperpage_hint'] = 'встановіть 0 для виведення всіх онлайн користувачів разом';
+$L['info_desc'] = 'Відображає кількість користувачів онлайн на головній та окремій сторінці, відстеження дій користувачів на сайті';
 
 /**
  * Plugin Title & Subtitle
@@ -29,5 +31,3 @@ $L['LastSeen'] = 'Дата і час';
 $L['Location'] = 'Розділ сайту';
 $L['IPaddress'] = 'IP адреса';
 $L['Visitor'] = 'Гість';
-
-?>

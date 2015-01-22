@@ -2,19 +2,17 @@
 /**
  * Ukrainian language file for HTML Purifier plugin
  *
- * @package htmlpurifier
- * @version 0.9.5
- * @author Trustmaster
- * @copyright Copyright (c) Cotonti Team 2011
- * @license BSD
+ * @package Htmlpurifier
+ * @copyright (c) Cotonti Translators Team
+ * @license https://github.com/Cotonti/Cotonti/blob/master/License.txt
  */
 
 defined('COT_CODE') or die('Wrong URL');
 
-$L['cfg_doctype'] = array('Doctype');
-$L['cfg_rel2abs'] = array('Відносні посилання в асболютні ',' Переводить відносні посилання в абсолютні, грунтуючись на вашому домені і хості');
-$L['cfg_tidylevel'] = array('Рівень Tidy ',' Наскільки ретельно HTML Purifier буде виправляти помилки в розмітці');
+$L['cfg_doctype'] = 'Doctype';
+$L['cfg_rel2abs'] = 'Відносні посилання в асболютні';
+$L['cfg_rel2abs_hint'] = 'Змінює відносні посилання в абсолютні, грунтуючись на вашому домені та хості';
+$L['cfg_tidylevel'] = 'Рівень Tidy';
+$L['cfg_tidylevel_hint'] = 'Наскільки ретельно HTML Purifier буде виправляти помилки в розмітці';
 
-$L['info_desc'] = 'Засвідчується в тому, що надісланий, HTML-вміст відповідає стандартам, акуратний і безпечний';
-
-?>
+$L['info_desc'] = 'Забезпечення безпеки HTML-контенту та його відповідності стандартам';

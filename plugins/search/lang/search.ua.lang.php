@@ -2,11 +2,9 @@
 /**
  * Ukrainian Language File for Search Plugin
  *
- * @package search
- * @version 0.9.5
- * @author Cotonti Translators Team
- * @copyright Copyright (c) Cotonti Team 2011
- * @license BSD
+ * @package Search
+ * @copyright (c) Cotonti Translators Team
+ * @license https://github.com/Cotonti/Cotonti/blob/master/License.txt
  */
 
 defined('COT_CODE') or die('Wrong URL.');
@@ -93,16 +91,16 @@ $L['plu_last_date'] = 'Дата оновлення';
  * Plugin Config
  */
 
-$L['cfg_maxwords']= array('Максимум пошукових слів');
-$L['cfg_maxsigns']= array('Максимум символів у пошуку');
-$L['cfg_maxitems']= array('Максимум результатів у звичайному пошуку');
-$L['cfg_minsigns'] = array('Мінімум символів в запиті');
-$L['cfg_pagesearch'] = array('Увімкнути пошук по сторінках');
-$L['cfg_forumsearch'] = array('Увімкнути пошук по форумам');
-$L['cfg_searchurl'] = array('Вид відображення повідомлень у форумах', 'Single &ndash; окреме повідомлення на сторінці<br />Normal &ndash; перехід до повідомлення при відображенні всієї теми');
-$L['cfg_addfields']= array('Додаткові поля сторінок для пошуку, розділені комами', 'Наприклад page_extra1, page_extra2, page_key');
-$L['cfg_extrafilters']= array('Відображати додаткові фільтри на головній сторінці пошуку');
+$L['cfg_maxwords'] = 'Максимум пошукових слів';
+$L['cfg_maxsigns'] = 'Максимум символів в пошуку';
+$L['cfg_maxitems'] = 'Максимум результатів у звичайному пошуку';
+$L['cfg_minsigns'] = 'Мінімум символів в запиті';
+$L['cfg_pagesearch'] = 'влючно пошук по сторінках';
+$L['cfg_forumsearch'] = 'Включити пошук по форумах';
+$L['cfg_searchurl'] = 'Вид відображення повідомлень у форумах';
+$L['cfg_searchurl_hint'] = 'Single &ndash; окреме повідомлення на сторінці<br />Normal &ndash; перехід до повідомлення при відображенні всієї теми';
+$L['cfg_addfields'] = 'Додаткові поля сторінок для пошуку, розділені комами';
+$L['cfg_addfields_hint'] = 'Наприклад page_extra1, page_extra2, page_key';
+$L['cfg_extrafilters'] = 'Відображати додаткові фільтри на головній сторінці пошуку';
 
 $L['info_desc'] = 'Пошук по сторінках, форумах та інших областях сайту з розширеними параметрами';
-
-?>

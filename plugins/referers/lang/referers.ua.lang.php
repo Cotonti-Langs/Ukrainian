@@ -3,10 +3,8 @@
  * Ukrainian Language File for Referers
  *
  * @package Referers
- * @version 0.9.5
- * @author Cotonti Translators Team
- * @copyright Copyright (c) Cotonti Team 2011
- * @license BSD
+ * @copyright (c) Cotonti Translators Team
+ * @license https://github.com/Cotonti/Cotonti/blob/master/License.txt
  */
 
 defined('COT_CODE') or die('Wrong URL.');
@@ -22,5 +20,3 @@ $L['Referers'] = 'Реферали';
 
 $L['adm_ref_prune'] = 'Очищено';
 $L['adm_ref_prunelowhits'] = 'Реферали з кількістю відвідувачів менше 5 видалені';
-
-?>

@@ -2,11 +2,9 @@
 /**
  * Ukrainian Language File for Forumstats Plugin
  *
- * @package forumstats
- * @version 0.9.5
- * @author Cotonti Translators Team
- * @copyright Copyright (c) Cotonti Team 2011
- * @license BSD
+ * @package Forumstats
+ * @copyright (c) Cotonti Translators Team
+ * @license https://github.com/Cotonti/Cotonti/blob/master/License.txt
  */
 
 defined('COT_CODE') or die('Wrong URL.');
@@ -31,5 +29,3 @@ $L['forumstats_sections'] = 'Всього розділів';
 $L['forumstats_topics'] = 'Всього тем';
 $L['forumstats_viewedtop10'] = '10 тем найбільш переглядаються';
 $L['forumstats_views'] = 'Всього переглядів';
-
-?>

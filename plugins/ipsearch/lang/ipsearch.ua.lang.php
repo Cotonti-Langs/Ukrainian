@@ -2,16 +2,14 @@
 /**
  * Ukrainian Language File for IPSearch
  *
- * @package Ipsearch
- * @version 0.9.5
- * @author Cotonti Translators Team
- * @copyright Copyright (c) Cotonti Team 2011
- * @license BSD
+ * @package IPSearch
+ * @copyright (c) Cotonti Translators Team
+ * @license https://github.com/Cotonti/Cotonti/blob/master/License.txt
  */
 
 defined('COT_CODE') or die('Wrong URL.');
 
-$L['info_desc'] = 'Пошук по IP в базі користувачів';
+$L['info_desc'] = 'Засіб пошуку користувачів по IP-адресі';
 
 /**
  * Plugin Body
@@ -25,5 +23,3 @@ $L['ipsearch_found1'] = 'Найдено';
 $L['ipsearch_found2'] = 'співпадінь(ня) для';
 
 $L['ipsearch_help'] = 'Ніякої допомоги для цього плагіна ще нема!';
-
-?>

@@ -2,28 +2,30 @@
 /**
  * Ukrainian Language File for Ratings Plugin
  *
- * @package ratings
- * @version 0.9.5
- * @author Cotonti Translators Team
- * @copyright Copyright (c) Cotonti Team 2011
- * @license BSD
+ * @package Ratings
+ * @copyright (c) Cotonti Translators Team
+ * @license https://github.com/Cotonti/Cotonti/blob/master/License.txt
  */
 
 defined('COT_CODE') or die('Wrong URL.');
 
 /**
- * Config Section
- * Ratings Subsection
+ * Plugin Info
  */
-
-$L['cfg_enable_ratings'] = array('Увімкнути рейтинги');
-$L['cfg_ratings_allowchange'] = array('Дозволити зміну рейтингу ',' Дозволити користувачам змінювати раніше виставлений рейтинг');
 
 $L['info_desc'] = 'Рейтинги з зірками, що працюють в один клік. Використовується jQuery.';
 
 /**
- * Other Section
- * Ratings Subsection
+ * Plugin Config
+ */
+
+$L['cfg_enable_ratings'] = 'Включити рейтинги';
+$L['cfg_ratings_allowchange'] = 'Дозволити зміну рейтингу';
+$L['cfg_ratings_allowchange_hint'] = 'Дозволити користувачам змінювати раніше виставлений рейтинг';
+$L['cfg_css'] = 'Використовувати CSS стилі плагіна';
+
+/**
+ * Plugin Admin
  */
 
 $L['adm_ratings_already_del'] = 'Рейтинг видалено';
@@ -32,18 +34,21 @@ $L['adm_ratings_totalvotes'] = 'Всього голосів';
 $L['adm_help_ratings'] = 'Для обнулення рейтингу просто видаліть його. Рейтинг буде створено заново при новій першій оцінці.';
 
 /**
- * Ratings
+ * Plugin Body
  */
 
-$L['rat_choice1'] = 'Погано';
-$L['rat_choice2'] = 'Непогано';
-$L['rat_choice3'] = 'Нормально';
-$L['rat_choice4'] = 'Добре';
-$L['rat_choice5'] = 'Відмінно';
+$L['rat_choice1'] = 'Дуже погано';
+$L['rat_choice2'] = 'Погано';
+$L['rat_choice3'] = 'Непогано';
+$L['rat_choice4'] = 'Задовільно';
+$L['rat_choice5'] = 'Нормально';
+$L['rat_choice6'] = 'Майже добре';
+$L['rat_choice7'] = 'Добре';
+$L['rat_choice8'] = 'Дуже добре';
+$L['rat_choice9'] = 'Відмінно';
+$L['rat_choice10'] = 'Ідеально';
 $L['rat_votecasted'] = 'Виконано, ваша оцінка врахована';
-$L['rat_since'] = 'с';
+$L['rat_since'] = 'з';
 $L['rat_notyetrated'] = 'Рейтинг поки відсутній';
 $L['rat_alreadyvoted'] = 'Ви вже оцінили даний ресурс';
 $L['rat_registeredonly'] = 'Рейтинги доступні тільки зареєстрованим користувачам';
-
-?>

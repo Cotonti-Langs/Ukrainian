@@ -2,16 +2,14 @@
 /**
  * Ukrainian Language File for Statistics Plugin
  *
- * @package statistics
- * @version 0.9.5
- * @author Cotonti Translators Team
- * @copyright Copyright (c) Cotonti Team 2011
- * @license BSD
+ * @package Statistics
+ * @copyright (c) Cotonti Translators Team
+ * @license https://github.com/Cotonti/Cotonti/blob/master/License.txt
  */
 
 defined('COT_CODE') or die('Wrong URL.');
 
-$L['info_desc'] = 'Прста статистика сайту';
+$L['info_desc'] = 'Проста статистика відвідувань для не великого сайту';
 
 /**
  * Plugin Title & Subtitle
@@ -53,5 +51,3 @@ $L['plu_notloggedin'] = 'Недоступно без авторизації';
 $L['plu_membersbycountry'] = 'Зареєстрованих користувачів, по країнах';
 $L['plu_flag'] = 'Прапор';
 $L['plu_unknown'] = 'Не вказано';
-
-?>
