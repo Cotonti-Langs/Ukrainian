@@ -457,8 +457,8 @@ $Ln['thousands_seperator'] = ' ';
  * Gender
  */
 
-$L['Gender_F'] = 'Жіночий';
-$L['Gender_M'] = 'Чоловічий';
+$L['Gender_F'] = 'Жіноча';
+$L['Gender_M'] = 'Чоловіча';
 $L['Gender_U'] = 'Не вказаний';
 
 /**
